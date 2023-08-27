@@ -1,29 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>计算小日本排放核污染水的时间</title>
+	<title>计算日本排放核污染水的时间</title>
   <header>
-    <!--        英文：
-Calculating the time when small Japan emits nuclear contaminated water.
-
-日文：
-小日本が核汚染水を排放する時間を計算する。
-
-法文：
-Élaborant le temps où petit Japon émet les éludes radioactifs.
-
-韩语：
-약속한 시간을 계산하여 판매한 일부의 일부이는 녹색 물에서 허용되지 않는다는 것을 추정합니다.
-
-意大利语：
-Calcolare la data per l'èmissione delle acque in profondità sulla città spagnola.
-
-西班牙语：
-Calculando el tiempo que entrara la fuente de contaminación radiolúcifera destinada a small Japón.
-->
    <!--
-    
-    
     作者团队包括但不限于：檀州乡、歇歇怪等。 由于相关时间功能跨度巨大，作者无法保证程序超过2023年能否正常运行，
     本程序由不同宗教信仰、性向、性别以及政治观点的多元文化团队设计、制作以及开发。
 
@@ -31,7 +11,7 @@ Calculando el tiempo que entrara la fuente de contaminación radiolúcifera dest
         
         程序中的极端发言和内容仅仅是虚构的，与现实世界的观点、信仰或行为无关。它们并不代表我们对于种族、性别、宗教、国籍、政治观点或其他敏感问题的立场。本程序所有代码和注释的解释权均为作者团队所有。
 
-英英文：
+英文：
 
 The author team of this program includes, but is not limited to, Tan Zhou Xiang and Xi Xi Guai. Due to the vast span of relevant time functions, the author cannot guarantee that the program will run smoothly beyond 2023. This program was designed, produced, and developed by a diverse cultural team with different religious beliefs, sexual orientations, genders, and political viewpoints.
 
@@ -75,7 +55,7 @@ FRENCH:
 
 Ce groupe d'auteur de cette programme comprennent, non seulement, Tan Zhou Xiang et Xi Xi Guai. Par conséquent de l'extension large de temps liées au fonctionnement spécifique des fonctionnalités appartenant aujourd'hui, l'auteur ne peut pas vous fournir si longtemps que le programme fonctionne après 2023. Cet programme a été créé， modifié et développé par un groupe culturel divers et variés en tant que personne ou institution reliant sur divers points de vision religieuse, de sexualité， de generation et de vision politique
    -->    
-   <h1>计算小日本排放核污染水的时间</h1>
+   <h1>计算日本排放核污染水的时间</h1>
   </header>
   <style>
     body {
@@ -126,22 +106,22 @@ Ce groupe d'auteur de cette programme comprennent, non seulement, Tan Zhou Xiang
       <div style="text-align:center ;" >
         <br></div>
       英文：
-      Calculating the time when small Japan emits nuclear contaminated water.
+      Calculating the time for Japan to release nuclear contaminated water.
       <br></div>
       日文：
-      小日本が核汚染水を排放する時間を計算する。
+      日本の核汚染水を排放する時間を算出する。
       <br></div>
       法文：
-      Élaborant le temps où petit Japon émet les éludes radioactifs.
+      La téléchargement de l'eau radioactif contaminée en Chine pourjait être calulée pour le Japon.
       <br></div>
       韩语：
-      약속한 시간을 계산하여 판매한 일부의 일부이는 녹색 물에서 허용되지 않는다는 것을 추정합니다.
+      한국의 암탕수량 물에서 효과적인 물을 발견할 때를 계산합니다.
       <br></div>
       意大利语：
-      Calcolare la data per l'èmissione delle acque in profondità sulla città spagnola.
+      Il tempo per la spedizione del acqua contaminato nemico in Italia devi essere calcolato.
       <br></div>
       西班牙语：
-      Calculando el tiempo que entrara la fuente de contaminación radiolúcifera destinada a small Japón.</div>
+      La hora de liberación del agua contaminado nuclear para España debe ser calculada.</div>
       <div style="text-align:center ;" >免责条款| Disclaimer | 免責事項 | Conditions d'utilisation | 免责声明 | Informazioni sul contratto | Términos de uso no autorizado
         </div>
        <div  style="text-align: center;" >
@@ -212,7 +192,7 @@ Ce groupe d'auteur de cette programme comprennent, non seulement, Tan Zhou Xiang
         // 计算核污染水扩散至太平洋时间差
         var timeDifference = beijingTime  - targetDate;
     
-        // 输出结果 —— 小日本以往海中排放核污染水的时间
+        // 输出结果 —— 日本以往海中排放核污染水的时间
         document.getElementById("result").innerHTML = "小日本以往海中排放核污染水已有(2023年8月24日开始)：" + Math.ceil(timeDifference / (1000 * 60 * 60 * 24)) + "天";
     
         //小日本一天排放核污染的水   单位：T 数量   460 吨核污染水
@@ -230,45 +210,57 @@ Ce groupe d'auteur de cette programme comprennent, non seulement, Tan Zhou Xiang
          // 计算时间差没有核污染水扩散太平洋
          var timeDifferencewatea = now - targetDatewate;
 
-        //小日本每天往海里排放核污染水量
+        //日本每天往海里排放核污染水量
         var water =460;
 
-         //计算小日本每天往海里排放核污染水量
+         //计算日本每天往海里排放核污染水量
          var  daywater = water* Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
 
-         //输出小日本每天往海里排放核污染水量
-         document.getElementById("daywate").innerHTML = "小日本以往海中排放核污染水已有：" + daywater + "吨";
+         //输出日本每天往海里排放核污染水量
+         document.getElementById("daywate").innerHTML = "日本以往海中排放核污染水已有：" + daywater + "吨";
 
         // 判断时间差是否达到小日本核污染水扩散至太平洋
         if (timeDifferencewate > 86400000) {
-          document.getElementById("wate").innerHTML = "小日本核污染水距离扩散至太平洋还剩："+Math.abs(Math.floor(timeDifferencewate/(1000 * 60 * 60 * 24)) / 100) * 100 + "天";;
+          document.getElementById("wate").innerHTML = "日本核污染水距离扩散至太平洋还剩："+Math.abs(Math.floor(timeDifferencewate/(1000 * 60 * 60 * 24)) / 100) * 100 + "天";;
         } else if (timeDifferencewate >= 86400000 && timeDifferencewate < 172800000) {
-          document.getElementById("wate").innerHTML = "小日本核污染水目前已经扩散至太平洋";
+          document.getElementById("wate").innerHTML = "日本核污染水目前已经扩散至太平洋";
         } else {
-          document.getElementById("wate").innerHTML = "小日本核污染水目前已经扩散至太平洋已有："+Math.floor(Math.abs(timeDifferencewate / (1000 * 60 * 60 * 24)) / 100) * 100 + "天";
+          document.getElementById("wate").innerHTML = "日本核污染水目前已经扩散至太平洋已有："+Math.floor(Math.abs(timeDifferencewate / (1000 * 60 * 60 * 24)) / 100) * 100 + "天";
         }
-        //计算小日本距离排放玩核污染水还剩多少天
-        // 创建一个表示2023年8月24日的Date对象
-        const date1 = new Date(2023, 7, 24); // 注意：月份是从0开始的，所以8月是7
+// 定义起始日期和结束日期
+const startDate3 = new Date(2023, 7, 24); // 注意：月份是从0开始的，所以8月是7
+const endDate3 = new Date(2053, 8, 25);
 
-        // 创建一个表示2053年8月25日的Date对象
-        const date2 = new Date(2053, 8, 25);
+// 获取当前日期
+const currentDate3 = new Date();
 
-        // 计算两个日期之间的毫秒数差
-        const millisecondsDifference = date2.getTime() - date1.getTime();
+// 计算两个日期之间的毫秒数差
+const millisecondsDifference3 = endDate3.getTime() - startDate3.getTime();
 
-        // 将毫秒数差转换为天数
-        const daysDifference = millisecondsDifference / (1000 * 60 * 60 * 24);
+// 将毫秒数差转换为天数
+const daysDifference3 = millisecondsDifference3 / (1000 * 60 * 60 * 24);
 
-        // 计算已经排放的年、月、天
-        const yearsElapsed = Math.floor(daysDifference / 365);
-        const monthsElapsed = Math.floor((daysDifference % 365) / 30);
-        const daysElapsed = Math.floor(daysDifference % 365);
-        
-        // 输出——将结果显示在HTML元素中——小日本距离排放完核污染水还剩多少天
-        document.getElementById("yearsa").innerHTML = "距离小日本距离排放完核污染水还剩：" + yearsElapsed + "年" + monthsElapsed + "月" + daysElapsed + "天";
+// 计算已经排放的年、月、天
+const yearsElapsed3 = Math.floor(daysDifference3 / 365);
+const monthsElapsed3 = Math.floor((daysDifference3 % 365) / 30);
+const remainingDays3 = Math.floor(daysDifference3 % 365);
 
-        // 定义起始时间和结束时间
+// 判断当前日期是否超过结束日期
+if (beijingTime> endDate3) {
+  console.log("当前时间已经超过2053年8月25日");
+} else {
+  console.log("当前时间还未超过2053年8月25日");
+}
+
+// 输出结果
+if (currentDate3 > endDate3) {
+  document.getElementById("yearsa").innerHTML = "距离日本距离排放完核污染水还剩：" + yearsElapsed3 + "年" + monthsElapsed3 + "月" + remainingDays3 + "天";
+} else {
+  document.getElementById("yearsa").innerHTML = "距离日本距离排放完核污染水已过：" + yearsElapsed3 + "年" + monthsElapsed3 + "月" + remainingDays3 + "天";
+}
+
+
+// 定义起始时间和结束时间
         var startDate = new Date("2023-08-24T12:00:00");
         var options = { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', timeZone: 'Asia/Shanghai' };
         var formatter = new Intl.DateTimeFormat('zh-CN', options);
@@ -286,7 +278,7 @@ Ce groupe d'auteur de cette programme comprennent, non seulement, Tan Zhou Xiang
         var minutes = Math.floor((remainingTime / (24 * 60 * 60 * 1000 * 100 * 365 * 5 * 24 * 60)) % 60);
 
         // 输出结果
-        var result = "距离小日本排放核污染水中放射性物质半降解还有：";
+        var result = "距离日本排放核污染水中放射性物质半降解还有：";
         if (hours !== 0) {
         result += hours + "小时";
        }
@@ -294,11 +286,10 @@ Ce groupe d'auteur de cette programme comprennent, non seulement, Tan Zhou Xiang
        result += minutes + "分钟";
        }
        if (days) {
-       result += days + "分钟";
+       result += days + "天";
        }
         result += centuries + "世纪" + years + "年" + months + "月" + " ";
        //当前代码结构无法精确计算出5031年后的时间，所以用if来判断 天、 、小时、分钟是否显示
-       //小日本没妈、不是人、抓紧滚出银河系
        document.getElementById("nuclear").innerHTML = result;
 </script>        
     
